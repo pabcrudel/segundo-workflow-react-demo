@@ -27,7 +27,7 @@ jobs:
       - name: ejecutar los test
         run: npm test
 
-      - name: ejecutar los test
+      - name: compilacion del proyecto
         run: npm run build
 
       - name: Deploy to GitHub Pages
