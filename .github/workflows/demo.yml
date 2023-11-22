@@ -22,3 +22,11 @@ jobs:
 
       - name: ejecutar los test
         run: npm test
+
+      - name: ejecutar los test
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        with:
+          folder: dist
